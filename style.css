@@ -4,6 +4,10 @@
     padding: 0 25%;
 }
 
+.carousel-item img {
+    height: 80vh;
+}
+
 .title {
     font-size: 3rem;
 }
@@ -24,4 +28,10 @@
 
 .ad {
     background-color: #e6f2ff;
+}
+
+@media screen and (max-width: 991px) {
+    .sponsor-section {
+        display: none;
+    }
 }
